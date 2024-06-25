@@ -1,0 +1,27 @@
+import java.util.*;
+public class Hello {
+    public static void main(String args[]){
+        Scanner in=new Scanner(System.in);
+        System.out.println("Enter the range:");
+        int a=in.nextInt(); //range value
+        int count=0;
+        int sum=0;
+        int arr[]=new int[a];
+        System.out.println("Enter the elements:");
+        for(int i=0;i<arr.length;i++){
+            arr[i]=in.nextInt(); //array input
+        }
+        System.out.println("Enter the target value:");
+        int b=in.nextInt();
+        for(int i=0;i<arr.length;i++){
+            if(arr[i]==b){ss
+                count++; //count
+            }
+            else{
+                sum=sum*i;
+            }
+
+        }
+        System.out.println(b+" - "+count);
+    }
+}
